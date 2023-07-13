@@ -1,0 +1,494 @@
+[0m[[0m[0minfo[0m] [0m[0morg.endpoints4s:play-server-circe_3:5.0.0+2-49f5d665+20230713-1256-SNAPSHOT[0m
+[0m[[0m[0minfo[0m] [0m[0m  +-io.circe:circe-parser_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-jawn_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  |   +-org.typelevel:jawn-parser_2.13:1.1.2 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-org.endpoints4s:algebra-circe_2.13:2.1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-parser_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-jawn_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:jawn-parser_2.13:1.1.2 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:algebra_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.endpoints4s:algebra-json-schema_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.scala-lang.modules:scala-collection-compat_2.13:2.7.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:algebra_2.13:1.7.0 (evicted by: 1.10.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-org.endpoints4s:json-schema-circe_2.13:2.1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:algebra-circe_2.13:2.1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.circe:circe-parser_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-io.circe:circe-jawn_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.circe:circe-core_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.circe:circe-numbers_2.13:0.14.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.typelevel:cats-core_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-org.typelevel:cats-kernel_2.13:2.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-org.typelevel:simulacrum-scalafix-annotations_2.13:0.5.4 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.typelevel:jawn-parser_2.13:1.1.2 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.endpoints4s:algebra_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-org.endpoints4s:algebra-json-schema_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.scala-lang.modules:scala-collection-compat_2.13:2.7.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.endpoints4s:algebra_2.13:1.7.0 (evicted by: 1.10.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:algebra-json-schema_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.scala-lang.modules:scala-collection-compat_2.13:2.7.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:algebra-json-schema_2.13:1.7.0 (evicted by: 1.10.0)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-org.endpoints4s:play-server_3:5.0.0+2-49f5d665+20230713-1256-SNAPSHOT[0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.typesafe.play:play-netty-server_2.13:2.9.0-M5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.typesafe.netty:netty-reactive-streams-http:2.0.8[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-com.typesafe.netty:netty-reactive-streams:2.0.8[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | +-io.netty:netty-handler:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-codec:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-resolver:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-transport-native-unix-common:4.1.84.Final (evicte..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-transport-native-unix-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | +-org.reactivestreams:reactive-streams:1.0.4[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-io.netty:netty-codec-http:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-codec:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-handler:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-codec:4.1.84.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-buffer:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-common:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-resolver:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport-native-unix-common:4.1.84.Final (evicte..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport-native-unix-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-transport:4.1.84.Final (evicted by: 4.1.93.Final)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |     +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |     | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |     | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |     +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |       +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |       [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.typesafe.play:play-server_2.13:2.9.0-M5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-com.typesafe.play:play_2.13:2.9.0-M5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.fasterxml.jackson.module:jackson-module-scala_2.13:2.14.3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.thoughtworks.paranamer:paranamer:2.8[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.google.guava:guava:32.0.0-jre[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.google.code.findbugs:jsr305:3.0.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.google.errorprone:error_prone_annotations:2.18.0[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.google.guava:failureaccess:1.0.1[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.google.guava:listenablefuture:9999.0-empty-to-avoid-conflict..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.google.j2objc:j2objc-annotations:2.8[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.checkerframework:checker-qual:3.33.0[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.akka:akka-actor-typed_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.akka:akka-slf4j_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.slf4j:slf4j-api:1.7.36 (evicted by: 2.0.7)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:1.7.36 (evicted by: 2.0.7)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.akka:akka-serialization-jackson_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.11.4 (evicted b..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.11.4 (evicted by: 2.14..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.11.4 (evicted by: ..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.11.4 ..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.dataformat:jackson-dataformat-cbor:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.11.4 (evi..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.11.4 (e..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.module:jackson-module-parameter-names:2.11..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.module:jackson-module-parameter-names:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.module:jackson-module-scala_2.13:2.11.4 (e..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.module:jackson-module-scala_2.13:2.14.3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.thoughtworks.paranamer:paranamer:2.8[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.lz4:lz4-java:1.8.0[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.akka:akka-slf4j_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:1.7.36 (evicted by: 2.0.7)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:build-link:2.9.0-M5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.play:play-exceptions:2.9.0-M5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:play-configuration_2.13:2.9.0-M5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.play:play-exceptions:2.9.0-M5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:play-json_2.13:2.10.0-RC8 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.1 (evicted b..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.1 (evicted by: 2.14..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.2 (evicted by: ..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.1 (evi..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jdk8:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.1 (e..[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.fasterxml.jackson.datatype:jackson-datatype-jsr310:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.fasterxml.jackson.core:jackson-databind:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-annotations:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   +-com.fasterxml.jackson.core:jackson-core:2.14.3[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.play:play-functional_2.13:2.10.0-RC8 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.scala-lang:scala-reflect:2.13.10 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:play-streams_2.13:2.9.0-M5 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe.akka:akka-stream_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe.akka:akka-actor_2.13:2.6.20 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-org.scala-lang.modules:scala-java8-compat_2.13:1.0.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe.akka:akka-protobuf-v3_2.13:2.6.20[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe:ssl-config-core_2.13:0.4.3 (evicted by: 0.6.1)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-com.typesafe:ssl-config-core_2.13:0.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.reactivestreams:reactive-streams:1.0.3 (evicted by: 1.0.4)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | +-org.reactivestreams:reactive-streams:1.0.4[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.reactivestreams:reactive-streams:1.0.4[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:twirl-api_2.13:1.6.0-RC2 (evicted by: 1.6.0-RC3)[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe.play:twirl-api_2.13:1.6.0-RC3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.scala-lang.modules:scala-xml_2.13:2.1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.typesafe:ssl-config-core_2.13:0.6.1 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-com.typesafe:config:1.4.2[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.jsonwebtoken:jjwt-api:0.11.5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.jsonwebtoken:jjwt-impl:0.11.5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.jsonwebtoken:jjwt-api:0.11.5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-io.jsonwebtoken:jjwt-jackson:0.11.5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-io.jsonwebtoken:jjwt-api:0.11.5[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-jakarta.transaction:jakarta.transaction-api:2.0.1[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-javax.inject:javax.inject:1[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.scala-lang.modules:scala-parser-combinators_2.13:1.1.2 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.slf4j:jcl-over-slf4j:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.slf4j:jul-to-slf4j:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-org.slf4j:slf4j-api:2.0.7[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-io.netty:netty-transport-native-epoll:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.netty:netty-transport-classes-epoll:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-transport-native-unix-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.netty:netty-transport-native-unix-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   | +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |   +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-io.netty:netty-transport:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-io.netty:netty-buffer:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     | +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-io.netty:netty-resolver:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |       +-io.netty:netty-common:4.1.93.Final[0m
+[0m[[0m[0minfo[0m] [0m[0m  | |       [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-com.typesafe.play:twirl-api_2.13:1.6.0-RC3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.scala-lang.modules:scala-xml_2.13:2.1.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.endpoints4s:openapi_2.13:4.4.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-com.lihaoyi:ujson_2.13:1.4.0[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-com.lihaoyi:upickle-core_2.13:1.4.0[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   +-com.lihaoyi:geny_2.13:0.6.10[0m
+[0m[[0m[0minfo[0m] [0m[0m  | | |   [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.endpoints4s:algebra-json-schema_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | +-org.scala-lang.modules:scala-collection-compat_2.13:2.7.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | | | [0m
+[0m[[0m[0minfo[0m] [0m[0m  | | +-org.endpoints4s:algebra_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |   +-org.endpoints4s:algebra-json-schema_2.13:1.10.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     +-org.scala-lang.modules:scala-collection-compat_2.13:2.7.0 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | |     [0m
+[0m[[0m[0minfo[0m] [0m[0m  | +-org.scala-lang:scala3-library_3:3.3.0-RC3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  | [0m
+[0m[[0m[0minfo[0m] [0m[0m  +-org.scala-lang:scala3-library_3:3.3.0-RC3 [S][0m
+[0m[[0m[0minfo[0m] [0m[0m  [0m

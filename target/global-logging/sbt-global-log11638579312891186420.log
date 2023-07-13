@@ -1,0 +1,450 @@
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(reload, Some(defc5c09-81ae-4ba2-a8bb-241eab51bb18), Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtStashOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(onFailure loadFailed, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(loadp, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0minfo[0m] [0m[0mwelcome to sbt 1.6.1 (Eclipse Adoptium Java 11.0.16)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: plugins took 6.889208ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: defsScala took 0.002334ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/aksuristola/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/aksuristola/.sbt/1.0/plugins, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.499542 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.resolveProject(global-plugins) took 0.893791ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadTransitive: finalizeProject(Project(id global-plugins, base: /Users/aksuristola/.sbt/1.0/plugins, plugins: List(<none>))) took 1.658792ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/aksuristola/.sbt/1.0/plugins, returning: (global-plugins)[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: loadedProjectsRaw took 2.841208ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: cleanEvalClasses took 0.007125ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit(file:/Users/aksuristola/.sbt/1.0/plugins/, ...) took 10.010666ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: load took 11.383125ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: resolveProjects took 0.086541ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: finalTransforms took 2.353417ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: config.delegates took 0.104ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: Def.make(settings)... took 27.682584ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: structureIndex took 5.888917ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.apply: mkStreams took 0.005125ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading global plugins from /Users/aksuristola/.sbt/1.0/plugins[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.defaultLoad until apply took 118.337459ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: plugins took 5.245875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: defsScala took 0.001958ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/aksuristola/Desktop/scala-webapp-template/play/project[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadUnit: mkEval took 0.073625ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found non-root projects [0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/aksuristola/Desktop/scala-webapp-template/play/project, returning: ()[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.233084 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project play-build from plugins.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m              Load.resolveProject(play-build) took 0.506167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m            Load.loadTransitive: finalizeProject(Project(id play-build, base: /Users/aksuristola/Desktop/scala-webapp-template/play/project, plugins: List(<none>))) took 0.847333ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/aksuristola/Desktop/scala-webapp-template/play/project, returning: (play-build)[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: loadedProjectsRaw took 15.272708ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m          Load.loadUnit: cleanEvalClasses took 2.257583ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.loadUnit(file:/Users/aksuristola/Desktop/scala-webapp-template/play/project/, ...) took 23.022167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: load took 25.928875ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: resolveProjects took 0.028916ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: finalTransforms took 5.089167ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: config.delegates took 0.080166ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: Def.make(settings)... took 19.278791ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: structureIndex took 5.226458ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.apply: mkStreams took 0.003041ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading project definition from /Users/aksuristola/Desktop/scala-webapp-template/play/project[0m
+[0m[[0m[0mdebug[0m] [0m[0mRunning task... Cancel: Signal, check cycles: false, forcegc: true[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: plugins took 602.288917ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: defsScala took 0.00125ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Scanning directory /Users/aksuristola/Desktop/scala-webapp-template/play[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadUnit: mkEval took 0.092375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Found root project play w/ remaining play-server,play-server-circe,play-client,documentation[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyMima),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.scalafmt.sbt.ScalafmtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePreviewPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SiteScaladocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.asciidoctor.AsciidoctorPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.gitbook.GitBookPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.hugo.HugoPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.jekyll.JekyllPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(laika.sbt.LaikaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.nanoc.NanocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.pamflet.PamfletPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.preprocess.PreprocessPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.sphinx.SphinxPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.paradox.sbt.ParadoxPlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.BaseUnidocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.GenJavadocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.JavaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.PublishJavadocPlugin),Set(Atom(sbtunidoc.GenJavadocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.ScalaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtdynver.DynVerPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(laika.sbt.LaikaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbtdynver.DynVerPlugin), Atom(com.jsuereth.sbtpgp.SbtPgp), Atom(xerial.sbt.Sonatype), Atom(com.typesafe.sbt.GitPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.geirsson.CiReleasePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyMima)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scalafmt.sbt.ScalafmtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(com.typesafe.sbt.site.SitePreviewPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,org.scalafmt.sbt.ScalafmtPlugin,com.typesafe.sbt.site.SitePlugin,scoverage.ScoverageSbtPlugin,net.virtualvoid.sbt.graph.DependencyGraphPlugin,com.typesafe.tools.mima.plugin.MimaPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,xerial.sbt.Sonatype,sbtdynver.DynVerPlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.site.SitePreviewPlugin,sbtversionpolicy.SbtVersionPolicyPlugin,sbtversionpolicy.SbtVersionPolicyMima,com.geirsson.CiReleasePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.947458 ms[0m
+[0m[[0m[0minfo[0m] [0m[0mloading settings for project play from build.sbt ...[0m
+[0m[[0m[0mdebug[0m] [0m[0m        Load.resolveProject(play) took 29.538ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.loadTransitive: finalizeProject(Project(id play, base: /Users/aksuristola/Desktop/scala-webapp-template/play, aggregate: List(LocalProject(play-server), LocalProject(play-server-circe), LocalProject(play-client), LocalProject(documentation)), plugins: List(<none>))) took 30.906208ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project play-server @ /Users/aksuristola/Desktop/scala-webapp-template/play/server[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyMima),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.scalafmt.sbt.ScalafmtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePreviewPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SiteScaladocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.asciidoctor.AsciidoctorPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.gitbook.GitBookPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.hugo.HugoPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.jekyll.JekyllPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(laika.sbt.LaikaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.nanoc.NanocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.pamflet.PamfletPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.preprocess.PreprocessPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.sphinx.SphinxPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.paradox.sbt.ParadoxPlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.BaseUnidocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.GenJavadocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.JavaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.PublishJavadocPlugin),Set(Atom(sbtunidoc.GenJavadocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.ScalaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtdynver.DynVerPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(laika.sbt.LaikaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbtdynver.DynVerPlugin), Atom(com.jsuereth.sbtpgp.SbtPgp), Atom(xerial.sbt.Sonatype), Atom(com.typesafe.sbt.GitPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.geirsson.CiReleasePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyMima)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scalafmt.sbt.ScalafmtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(com.typesafe.sbt.site.SitePreviewPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,org.scalafmt.sbt.ScalafmtPlugin,com.typesafe.sbt.site.SitePlugin,scoverage.ScoverageSbtPlugin,net.virtualvoid.sbt.graph.DependencyGraphPlugin,com.typesafe.tools.mima.plugin.MimaPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,xerial.sbt.Sonatype,sbtdynver.DynVerPlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.site.SitePreviewPlugin,sbtversionpolicy.SbtVersionPolicyPlugin,sbtversionpolicy.SbtVersionPolicyMima,com.geirsson.CiReleasePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.783916 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(play-server) took 0.664375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project play-server-circe @ /Users/aksuristola/Desktop/scala-webapp-template/play/server-circe[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyMima),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.scalafmt.sbt.ScalafmtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePreviewPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SiteScaladocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.asciidoctor.AsciidoctorPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.gitbook.GitBookPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.hugo.HugoPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.jekyll.JekyllPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(laika.sbt.LaikaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.nanoc.NanocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.pamflet.PamfletPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.preprocess.PreprocessPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.sphinx.SphinxPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.paradox.sbt.ParadoxPlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.BaseUnidocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.GenJavadocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.JavaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.PublishJavadocPlugin),Set(Atom(sbtunidoc.GenJavadocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.ScalaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtdynver.DynVerPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(laika.sbt.LaikaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbtdynver.DynVerPlugin), Atom(com.jsuereth.sbtpgp.SbtPgp), Atom(xerial.sbt.Sonatype), Atom(com.typesafe.sbt.GitPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.geirsson.CiReleasePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyMima)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scalafmt.sbt.ScalafmtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(com.typesafe.sbt.site.SitePreviewPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,org.scalafmt.sbt.ScalafmtPlugin,com.typesafe.sbt.site.SitePlugin,scoverage.ScoverageSbtPlugin,net.virtualvoid.sbt.graph.DependencyGraphPlugin,com.typesafe.tools.mima.plugin.MimaPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,xerial.sbt.Sonatype,sbtdynver.DynVerPlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.site.SitePreviewPlugin,sbtversionpolicy.SbtVersionPolicyPlugin,sbtversionpolicy.SbtVersionPolicyMima,com.geirsson.CiReleasePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.668666 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(play-server-circe) took 81.5755ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project play-client @ /Users/aksuristola/Desktop/scala-webapp-template/play/client[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyMima),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.scalafmt.sbt.ScalafmtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePreviewPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SiteScaladocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.asciidoctor.AsciidoctorPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.gitbook.GitBookPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.hugo.HugoPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.jekyll.JekyllPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(laika.sbt.LaikaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.nanoc.NanocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.pamflet.PamfletPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.preprocess.PreprocessPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.sphinx.SphinxPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.paradox.sbt.ParadoxPlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin),Set(Atom(com.lightbend.paradox.sbt.ParadoxPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.BaseUnidocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.GenJavadocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.JavaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.PublishJavadocPlugin),Set(Atom(sbtunidoc.GenJavadocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.ScalaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtdynver.DynVerPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(laika.sbt.LaikaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbtdynver.DynVerPlugin), Atom(com.jsuereth.sbtpgp.SbtPgp), Atom(xerial.sbt.Sonatype), Atom(com.typesafe.sbt.GitPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.geirsson.CiReleasePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyMima)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scalafmt.sbt.ScalafmtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(com.typesafe.sbt.site.SitePreviewPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(sbt.plugins.CorePlugin,com.typesafe.sbt.GitPlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,com.jsuereth.sbtpgp.SbtPgp,sbt.plugins.JvmPlugin,org.scalafmt.sbt.ScalafmtPlugin,com.typesafe.sbt.site.SitePlugin,scoverage.ScoverageSbtPlugin,net.virtualvoid.sbt.graph.DependencyGraphPlugin,com.typesafe.tools.mima.plugin.MimaPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,xerial.sbt.Sonatype,sbtdynver.DynVerPlugin,sbt.plugins.MiniDependencyTreePlugin,com.typesafe.sbt.site.SitePreviewPlugin,sbtversionpolicy.SbtVersionPolicyPlugin,sbtversionpolicy.SbtVersionPolicyMima,com.geirsson.CiReleasePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 0.980917 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(play-client) took 0.753958ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Loading project documentation @ /Users/aksuristola/Desktop/scala-webapp-template/play/documentation[0m
+[0m[[0m[0mdebug[0m] [0m[0mdeducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin), Atom(io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin), Atom(sbtunidoc.ScalaUnidocPlugin), Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin), Atom(com.lightbend.paradox.sbt.ParadoxPlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.geirsson.CiReleasePlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyMima),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtversionpolicy.SbtVersionPolicyPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(scoverage.ScoverageSbtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(org.scalafmt.sbt.ScalafmtPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePreviewPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SiteScaladocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.asciidoctor.AsciidoctorPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.gitbook.GitBookPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.hugo.HugoPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.jekyll.JekyllPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.laika.LaikaSitePlugin),Set(Atom(laika.sbt.LaikaPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.nanoc.NanocPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.pamflet.PamfletPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.paradox.ParadoxSitePlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.preprocess.PreprocessPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.sphinx.SphinxPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.lightbend.paradox.sbt.ParadoxPlugin),Set(Atom(com.typesafe.sbt.web.SbtWeb)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.BaseUnidocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.GenJavadocPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.JavaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.PublishJavadocPlugin),Set(Atom(sbtunidoc.GenJavadocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtunidoc.ScalaUnidocPlugin),Set(Atom(sbtunidoc.BaseUnidocPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbtdynver.DynVerPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitBranchPrompt),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.GitVersioning),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(xerial.sbt.Sonatype),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.jsuereth.sbtpgp.SbtPgp),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(laika.sbt.LaikaPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.web.SbtWeb),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(And(Set(Atom(sbtdynver.DynVerPlugin), Atom(com.jsuereth.sbtpgp.SbtPgp), Atom(xerial.sbt.Sonatype), Atom(com.typesafe.sbt.GitPlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(com.geirsson.CiReleasePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyMima)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.tools.mima.plugin.MimaPlugin),Set(Atom(sbtversionpolicy.SbtVersionPolicyPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(scoverage.ScoverageSbtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.scalafmt.sbt.ScalafmtPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.sbt.site.SitePlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(com.typesafe.sbt.site.SitePlugin),Set(Atom(com.typesafe.sbt.site.SitePreviewPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(net.virtualvoid.sbt.graph.DependencyGraphPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtdynver.DynVerPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.CorePlugin),Set(Atom(com.typesafe.sbt.GitPlugin)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(xerial.sbt.Sonatype)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.IvyPlugin),Set(Atom(com.jsuereth.sbtpgp.SbtPgp)))[0m
+[0m[[0m[0mdebug[0m] [0m[0mClause(Atom(sbt.plugins.JvmPlugin),Set(Atom(com.typesafe.tools.mima.plugin.MimaPlugin))))[0m
+[0m[[0m[0mdebug[0m] [0m[0m  :: deduced result: Matched(com.lightbend.paradox.sbt.ParadoxPlugin,com.typesafe.sbt.site.paradox.ParadoxSitePlugin,sbtunidoc.ScalaUnidocPlugin,io.github.jonas.paradox.material.theme.ParadoxMaterialThemePlugin,sbt.plugins.CorePlugin,com.typesafe.sbt.site.SitePlugin,com.typesafe.sbt.GitPlugin,com.typesafe.sbt.web.SbtWeb,sbt.plugins.IvyPlugin,sbt.plugins.Giter8TemplatePlugin,sbtunidoc.BaseUnidocPlugin,com.jsuereth.sbtpgp.SbtPgp,com.typesafe.sbt.site.SitePreviewPlugin,sbt.plugins.JvmPlugin,org.scalafmt.sbt.ScalafmtPlugin,scoverage.ScoverageSbtPlugin,net.virtualvoid.sbt.graph.DependencyGraphPlugin,com.typesafe.tools.mima.plugin.MimaPlugin,sbt.plugins.SemanticdbPlugin,sbt.plugins.JUnitXmlReportPlugin,xerial.sbt.Sonatype,sbtdynver.DynVerPlugin,sbt.plugins.MiniDependencyTreePlugin,sbtversionpolicy.SbtVersionPolicyPlugin,sbtversionpolicy.SbtVersionPolicyMima,com.geirsson.CiReleasePlugin)[0m
+[0m[[0m[0mdebug[0m] [0m[0mPlugins.deducer#function took 2.676542 ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m      Load.resolveProject(documentation) took 40.061791ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m[Loading] Done in /Users/aksuristola/Desktop/scala-webapp-template/play, returning: (play, play-server, play-server-circe, play-client, documentation)[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: loadedProjectsRaw took 432.848458ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m    Load.loadUnit: cleanEvalClasses took 3.946584ms[0m
+[0m[[0m[0mdebug[0m] [0m[0m  Load.loadUnit(file:/Users/aksuristola/Desktop/scala-webapp-template/play/, ...) took 1039.293667ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: load took 1039.952292ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: resolveProjects took 0.0895ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: finalTransforms took 20.536375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: config.delegates took 0.237375ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: Def.make(settings)... took 476.32575ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: structureIndex took 47.617584ms[0m
+[0m[[0m[0mdebug[0m] [0m[0mLoad.apply: mkStreams took 0.002ms[0m
+[0m[[0m[0minfo[0m] [0m[0mset current project to play (in build file:/Users/aksuristola/Desktop/scala-webapp-template/play/)[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(sbtPopOnFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(resumeFromFailure, None, Some(CommandSource(console0)))[0m
+[0m[[0m[0mdebug[0m] [0m[0m> Exec(shell, None, None)[0m

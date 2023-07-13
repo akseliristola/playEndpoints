@@ -1,0 +1,10 @@
+[0m[[0m[0minfo[0m] [0m[0m:: delivering :: org.endpoints4s#play-client_3;5.0.0+2-49f5d665+20230713-1251-SNAPSHOT :: 5.0.0+2-49f5d665+20230713-1251-SNAPSHOT :: integration :: Thu Jul 13 12:51:17 EEST 2023[0m
+[0m[[0m[0mdebug[0m] [0m[0m	options = status=integration pubdate=Thu Jul 13 12:51:17 EEST 2023 validate=true resolveDynamicRevisions=true merge=true resolveId=null pubBranch=null[0m
+[0m[[0m[0minfo[0m] [0m[0m	delivering ivy file to /Users/aksuristola/Desktop/scala-webapp-template/play/client/target/scala-3.0.2/ivy-5.0.0+2-49f5d665+20230713-1251-SNAPSHOT.xml[0m
+[0m[[0m[0mdebug[0m] [0m[0m	deliver done (3ms)[0m
+[0m[[0m[0mdebug[0m] [0m[0mlocal do not support transaction. ivy pattern does not use revision as a directory[0m
+[0m[[0m[0minfo[0m] [0m[0m	published play-client_3 to /Users/aksuristola/.ivy2/local/org.endpoints4s/play-client_3/5.0.0+2-49f5d665+20230713-1251-SNAPSHOT/poms/play-client_3.pom[0m
+[0m[[0m[0minfo[0m] [0m[0m	published play-client_3 to /Users/aksuristola/.ivy2/local/org.endpoints4s/play-client_3/5.0.0+2-49f5d665+20230713-1251-SNAPSHOT/jars/play-client_3.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published play-client_3 to /Users/aksuristola/.ivy2/local/org.endpoints4s/play-client_3/5.0.0+2-49f5d665+20230713-1251-SNAPSHOT/srcs/play-client_3-sources.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published play-client_3 to /Users/aksuristola/.ivy2/local/org.endpoints4s/play-client_3/5.0.0+2-49f5d665+20230713-1251-SNAPSHOT/docs/play-client_3-javadoc.jar[0m
+[0m[[0m[0minfo[0m] [0m[0m	published ivy to /Users/aksuristola/.ivy2/local/org.endpoints4s/play-client_3/5.0.0+2-49f5d665+20230713-1251-SNAPSHOT/ivys/ivy.xml[0m

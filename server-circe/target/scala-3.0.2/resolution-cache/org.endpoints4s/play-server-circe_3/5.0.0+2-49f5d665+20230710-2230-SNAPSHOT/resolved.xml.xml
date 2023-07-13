@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ivy-module version="2.0" xmlns:e="http://ant.apache.org/ivy/extra">
+  <info e:info.versionScheme="early-semver" organisation="org.endpoints4s" module="play-server-circe_3" revision="5.0.0+2-49f5d665+20230710-2230-SNAPSHOT">
+    <description homepage="https://github.com/endpoints4s/play">play-server-circe</description>
+  </info>
+  <configurations>
+    <conf name="plugin" visibility="public" description=""/>
+    <conf name="pom" visibility="public" description=""/>
+    <conf extends="runtime" name="test" visibility="public" description=""/>
+    <conf name="provided" visibility="public" description=""/>
+    <conf extends="compile,optional,provided" name="compile-internal" visibility="public" description=""/>
+    <conf name="docs" visibility="public" description=""/>
+    <conf name="scoveragePlugin" visibility="public" description=""/>
+    <conf name="optional" visibility="public" description=""/>
+    <conf name="compile" visibility="public" description=""/>
+    <conf extends="test,optional,provided" name="test-internal" visibility="public" description=""/>
+    <conf name="scala-tool" visibility="public" description=""/>
+    <conf name="scala-doc-tool" visibility="public" description=""/>
+    <conf name="sources" visibility="public" description=""/>
+    <conf extends="compile" name="runtime" visibility="public" description=""/>
+    <conf extends="runtime,optional" name="runtime-internal" visibility="public" description=""/>
+  </configurations>
+  <publications>
+    <artifact name="play-server-circe_3" type="jar" ext="jar" conf="compile"/>
+    <artifact e:classifier="sources" name="play-server-circe_3" type="src" ext="jar" conf="sources"/>
+    <artifact e:classifier="javadoc" name="play-server-circe_3" type="doc" ext="jar" conf="docs"/>
+    <artifact name="play-server-circe_3" type="pom" ext="pom" conf="pom"/>
+  </publications>
+  <dependencies>
+    <dependency org="org.scala-lang" name="scala3-compiler_3" rev="3.0.2" conf="scala-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scaladoc_3" rev="3.0.2" conf="scala-doc-tool-&gt;default(compile)"> </dependency>
+    <dependency org="org.endpoints4s" name="play-server_3" rev="5.0.0+2-49f5d665+20230710-2230-SNAPSHOT" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.scala-lang" name="scala3-library_3" rev="3.0.2" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="io.circe" name="circe-parser_2.13" rev="0.14.1" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.endpoints4s" name="algebra-circe_2.13" rev="2.1.0" conf="compile-&gt;default(compile)"> </dependency>
+    <dependency org="org.endpoints4s" name="json-schema-circe_2.13" rev="2.1.0" conf="compile-&gt;default(compile)"> </dependency>
+  </dependencies>
+</ivy-module>

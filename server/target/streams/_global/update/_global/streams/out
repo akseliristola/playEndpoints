@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mnot up to date. inChanged = true, force = false[0m
+[0m[[0m[0mdebug[0m] [0m[0mUpdating play-server...[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone updating play-server[0m
+[0m[[0m[31merror[0m] [0m[0mModules were resolved with conflicting cross-version suffixes in ProjectRef(uri("file:/Users/aksuristola/Desktop/scala-webapp-template/play/"), "play-server"):[0m
+[0m[[0m[31merror[0m] [0m[0m   com.typesafe.akka:akka-protobuf-v3 _2.13, _3[0m
+[0m[[0m[31merror[0m] [0m[0m   com.typesafe.akka:akka-actor _2.13, _3[0m
+[0m[[0m[31merror[0m] [0m[0m   com.typesafe.akka:akka-stream _2.13, _3[0m
+[0m[[0m[31merror[0m] [0m[0m   org.scala-lang.modules:scala-java8-compat _2.13, _3[0m
+[0m[[0m[31merror[0m] [0m[0m   org.scala-lang.modules:scala-parser-combinators _3, _2.13[0m
+[0m[[0m[31merror[0m] [0m[0m   com.typesafe:ssl-config-core _2.13, _3[0m
+[0m[[0m[31merror[0m] [0m[0mjava.lang.RuntimeException: Conflicting cross-version suffixes in: com.typesafe.akka:akka-protobuf-v3, com.typesafe.akka:akka-actor, com.typesafe.akka:akka-stream, org.scala-lang.modules:scala-java8-compat, org.scala-lang.modules:scala-parser-combinators, com.typesafe:ssl-config-core[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.sys.package$.error(package.scala:30)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.ConflictWarning$.processCrossVersioned(ConflictWarning.scala:39)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.librarymanagement.ConflictWarning$.apply(ConflictWarning.scala:19)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Classpaths$.$anonfun$ivyBaseSettings$71(Defaults.scala:3206)[0m
+[0m[[0m[31merror[0m] [0m[0m	at scala.Function1.$anonfun$compose$1(Function1.scala:49)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.$tilde$greater.$anonfun$$u2219$1(TypeFunctions.scala:62)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.std.Transform$$anon$4.work(Transform.scala:68)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$2(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.internal.util.ErrorHandling$.wideConvert(ErrorHandling.scala:23)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.work(Execute.scala:291)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.Execute.$anonfun$submit$1(Execute.scala:282)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.ConcurrentRestrictions$$anon$4.$anonfun$submitValid$1(ConcurrentRestrictions.scala:265)[0m
+[0m[[0m[31merror[0m] [0m[0m	at sbt.CompletionService$$anon$2.call(CompletionService.scala:64)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:515)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:264)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)[0m
+[0m[[0m[31merror[0m] [0m[0m	at java.base/java.lang.Thread.run(Thread.java:829)[0m
+[0m[[0m[31merror[0m] [0m[0m(play-server / [31mupdate[0m) Conflicting cross-version suffixes in: com.typesafe.akka:akka-protobuf-v3, com.typesafe.akka:akka-actor, com.typesafe.akka:akka-stream, org.scala-lang.modules:scala-java8-compat, org.scala-lang.modules:scala-parser-combinators, com.typesafe:ssl-config-core[0m

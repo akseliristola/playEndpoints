@@ -1,0 +1,65 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<project xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0">
+    <modelVersion>4.0.0</modelVersion>
+    <groupId>org.endpoints4s</groupId>
+    <artifactId>play-server-circe_3</artifactId>
+    <packaging>jar</packaging>
+    <description>play-server-circe</description>
+    <url>https://github.com/endpoints4s/play</url>
+    <version>5.0.0+2-49f5d665+20230710-2221-SNAPSHOT</version>
+    <licenses>
+        <license>
+            <name>MIT License</name>
+            <url>http://opensource.org/licenses/mit-license.php</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <name>play-server-circe</name>
+    <organization>
+        <name>org.endpoints4s</name>
+        <url>https://github.com/endpoints4s/play</url>
+    </organization>
+    <scm>
+        <url>https://github.com/endpoints4s/play</url>
+        <connection>scm:git:https://github.com/endpoints4s/play.git</connection>
+        <developerConnection>scm:git:git@github.com:endpoints4s/play.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <id>julienrf</id>
+            <name>Julien Richard-Foy</name>
+            <url>http://julien.richard-foy.fr</url>
+            <email>julien@richard-foy.fr</email>
+        </developer>
+    </developers>
+    <properties>
+        <info.versionScheme>early-semver</info.versionScheme>
+    </properties>
+    <dependencies>
+        <dependency>
+            <groupId>org.endpoints4s</groupId>
+            <artifactId>play-server_3</artifactId>
+            <version>5.0.0+2-49f5d665+20230710-2221-SNAPSHOT</version>
+        </dependency>
+        <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala3-library_3</artifactId>
+            <version>3.0.2</version>
+        </dependency>
+        <dependency>
+            <groupId>io.circe</groupId>
+            <artifactId>circe-parser_2.13</artifactId>
+            <version>0.14.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.endpoints4s</groupId>
+            <artifactId>algebra-circe_2.13</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.endpoints4s</groupId>
+            <artifactId>json-schema-circe_2.13</artifactId>
+            <version>2.1.0</version>
+        </dependency>
+    </dependencies>
+</project>

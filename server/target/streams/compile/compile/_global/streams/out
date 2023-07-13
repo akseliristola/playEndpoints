@@ -1,0 +1,53 @@
+[0m[[0m[31merror[0m] [0m[0merror while loading package,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file play/twirl/api/package.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 3 [unstable release: 1]}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 3}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.3.0.[0m
+[0m[[0m[31merror[0m] [0m[0mNote that your tooling is currently using an unstable TASTy version.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Content,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file play/twirl/api/Content.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 3 [unstable release: 1]}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 3}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.3.0.[0m
+[0m[[0m[31merror[0m] [0m[0mNote that your tooling is currently using an unstable TASTy version.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Xml,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file play/twirl/api/Xml.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 3 [unstable release: 1]}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 3}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.3.0.[0m
+[0m[[0m[31merror[0m] [0m[0mNote that your tooling is currently using an unstable TASTy version.[0m
+[0m[[0m[31merror[0m] [0m[0merror while loading Html,[0m
+[0m[[0m[31merror[0m] [0m[0mclass file play/twirl/api/Html.class is broken, reading aborted with class dotty.tools.tasty.UnpickleException[0m
+[0m[[0m[31merror[0m] [0m[0mTASTy signature has wrong version.[0m
+[0m[[0m[31merror[0m] [0m[0m expected: {majorVersion: 28, minorVersion: 3 [unstable release: 1]}[0m
+[0m[[0m[31merror[0m] [0m[0m found   : {majorVersion: 28, minorVersion: 3}[0m
+[0m[[0m[31merror[0m] [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0mThis TASTy file was produced by a more recent, forwards incompatible release.[0m
+[0m[[0m[31merror[0m] [0m[0mTo read this TASTy file, please upgrade your tooling.[0m
+[0m[[0m[31merror[0m] [0m[0mThe TASTy file was produced by Scala 3.3.0.[0m
+[0m[[0m[31merror[0m] [0m[0mNote that your tooling is currently using an unstable TASTy version.[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E006] Not Found Error: /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Endpoints.scala:445:40 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m445 |[0m  [33mlazy[0m [33mval[0m [36mhtmlResponse[0m: [35mResponseEntity[0m[[35mHtml[0m] = responseEntityFromWriteable([0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m                                        ^^^^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m                                        Not found: type Html[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0m longer explanation available when compiling with `-explain`[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m-- [E172] Type Error: /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Endpoints.scala:446:14 [0m[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m446 |[0m    implicitly[0m
+[0m[[0m[31merror[0m] [0m[0m[31m[31m    |[0m              ^[0m[0m
+[0m[[0m[31merror[0m] [0m[0m[31m    |[0mAmbiguous given instances: both [33mvalue[0m [35mwByteArray[0m in [33mtrait[0m [35mDefaultWriteables[0m and [33mvalue[0m [35mwBytes[0m in [33mtrait[0m [35mDefaultWriteables[0m match type T of parameter e of [33mmethod[0m [35mimplicitly[0m in [33mobject[0m [35mPredef[0m[0m
+[0m[[0m[33mwarn[0m] [0m[0mthere was 1 feature warning; re-run with -feature for details[0m
+[0m[[0m[33mwarn[0m] [0m[0mone warning found[0m
+[0m[[0m[31merror[0m] [0m[0m6 errors found[0m

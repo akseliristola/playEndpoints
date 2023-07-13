@@ -1,0 +1,31 @@
+[0m[[0m[0mdebug[0m] [0m[0mPackaging /Users/aksuristola/Desktop/scala-webapp-template/play/server/target/scala-3.0.2/play-server_3-5.0.0+2-49f5d665+20230713-1251-SNAPSHOT-sources.jar ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInput file mappings:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/Assets.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Assets.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/Endpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Endpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/JsonEntities.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/JsonEntities.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/Methods.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Methods.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/ChunkedEntities.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/ChunkedEntities.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/PlayComponents.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/PlayComponents.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/package.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/BasicAuthentication.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/BasicAuthentication.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/MuxEndpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/MuxEndpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/BuiltInErrors.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/BuiltInErrors.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/StatusCodes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/StatusCodes.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/Urls.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/Urls.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	endpoints4s/play/server/LowLevelEndpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0m	  /Users/aksuristola/Desktop/scala-webapp-template/play/server/src/main/scala/endpoints4s/play/server/LowLevelEndpoints.scala[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone packaging.[0m
